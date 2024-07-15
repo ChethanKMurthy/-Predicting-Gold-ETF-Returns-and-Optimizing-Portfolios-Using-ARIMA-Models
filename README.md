@@ -40,7 +40,7 @@ Leveraging our fitted ARIMA models, we forecast future returns for a specific ho
 
 ### 6. Optimizing Portfolio
 
-To maximize compounded return, we optimize portfolio allocation based on predicted returns by:
+To maximize compounded return, I optimize portfolio allocation based on predicted returns by:
 
 - Defining an **Objective Function** that calculates negative compounded return.
 - **Normalizing** predicted returns using standard scaling.
@@ -48,5 +48,5 @@ To maximize compounded return, we optimize portfolio allocation based on predict
 - Leveraging **scipy.optimize.minimize** function to determine weights maximizing compounded return.
 
 ### 7. Displaying Allocation Results
-I showcase **optimal portfolio weights** in a tabular format indicating percentage allocation to each ETF for achieving maximum compounded return. Additionally, we plot this allocation with a **bar chart** for visual representation of optimized portfolio.
+I showcase **optimal portfolio weights** in a tabular format indicating percentage allocation to each ETF for achieving maximum compounded return. Additionally, I plot this allocation with a **bar chart** for visual representation of optimized portfolio.
 
